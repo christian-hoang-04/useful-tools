@@ -1,0 +1,36 @@
+2 of 2
+Paper No: 1
+
+Field Name | Type | Constrain | Description
+--- | --- | --- | ---
+userID | varchar(25) | Primary key, not null | ID used for system login
+fullName | nvarchar(50) | Not null | Member's full name
+password | varchar(50) | Not null | Password used for login
+roleID | varchar(5) | Not null, Default 'NV' | User roles in the system: QL - Manager; NV - Member
+status | bit | Not null, Default 0 | 1 - In use; 0 - Cannot be used to log in
+
+2. Fashion table: tblUniversity
+
+Field Name | Type | Constrain | Validation | Description
+--- | --- | --- | --- | ---
+id | char(6) | Primary Key, not null, | format: UNI### - The university code is made up of six characters: the first three letters are "UNI", and the last three digits represent the sequential number assigned to each university.
+name | nvarchar(150) | Not null | | The official full name of the university
+shortName | nvarchar(20) | Not null | | Abbreviation of the University Name
+description | nvarchar(500) | Not null | | Interpretation information
+foundeDYear | int | Not null | | Year of Establishment
+address | nvarchar(200) | Not null | | 
+city | nvarchar(50) | Not null | | 
+region | nvarchar(50) | Not null | | Must be one of the following: "Miền Bắc", "Miền Trung", or "Miền Nam"
+type | nvarchar(50) | Not null | | 
+totalStudents | int | Not null | | Current total of enrolled students
+totalFaculties | int | Not null | | Number of faculties, departments, and centers under the university
+isDraft | bit | Default 1 | | If the value is 1, the attribute indicates that the current information is a draft and not yet complete.
+
+Requirements:
+
+Develop a Java web application designed to management university information. The application includes the following functions:
+
+1. Login - Logout....................................................................................[4.0d]
+    1.1. Login
+        1.1.1. On login.jsp page, user enters userID and password to login system, These fields cannot be left blank and must use the appropriate input type.......................0.5d
+        1.1.2. If the userID or the password is incorrect, the error message will be display like this "Invalid user or password"...........................................................0.5d

@@ -1,0 +1,35 @@
+1 of 1 
+Paper No: 1
+
+Question 1:
+
+Practical Exam
+
+Subject PRJ301
+Duration 90 minutes
+Total marks 10
+Department CF-HCM
+
+Read the instructions below carefully before start coding.
+
+Students are ONLY allowed to use:
+* It is mandatory to turn off all existing projects in Netbeans. If the supervisor detects that there is a project other than the project being worked on, it is considered a violation.
+* Only allow opening applications related to PE exam: PE tool, Netbeans, window explorer, zip tools, browser. Note that if students open tools other than those allowed, they will get 0 points, whether opening the tool accidentally or intentionally.
+* MUST use MVC2 model with MainController.
+* Students are provided with a PE project. And it is mandatory to use the provided project to complete your PE.
+* You are provided with a getConnection() method in the DBUtils.java file that is used to connect to the database. You must use this method and are not allowed to change the content in this file.
+
+If at least one of the above requirements is not followed, the exam will get ZERO.
+
+Resource: You are supported the materials. They include:
+1. The project "PE_PRJ301": you must use this project to take your practical exam.
+2. The file "Regulations_for_Participating_in_the_PE_PRJ301_Examination.pdf" is PE policies.
+
+Problem: You are participating in a software project to develop a system for managing university information and student admissions for the ABC Education project. Your task in this project is to develop several features of the system
+
+- Login - Logout for members when working on the software .............................. [4.0d]
+- Search by university name or short name ...................................................... [3.0d]
+- Update information for found data .............................................................. [3.0d]
+
+Database: To complete your tasks, the database - UniversityManagement, is provided with relevant tables with the design as described below.
+1. User table: tblUsers 
