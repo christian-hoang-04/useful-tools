@@ -1,1 +1,1 @@
-For non-coders, here is the [Kaggle link]()
+After trying to test locally and in Kaggle myself, I decided to use [whisper-web repository](https://github.com/christian-hoang-04/whisper-web) to set up and run smoothly in my machine. 
